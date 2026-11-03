@@ -12,7 +12,7 @@ function printArray(arr) { /форм
 }
 
 function bubbleSort(array, isAscending) {
-    const arr = [...array]; 
+    const arr = [...array];  /cop
     const n = arr.length;
 
     for (let i = 0; i < n - 1; i++) {
