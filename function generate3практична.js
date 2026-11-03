@@ -17,7 +17,7 @@ function bubbleSort(array, isAscending) {
 
     for (let i = 0; i < n - 1; i++) {
         for (let j = 0; j < n - i - 1; j++) {
-            const condition = isAscending ? arr[j] > arr[j + 1] : arr[j] < arr[j + 1];
+            const condition = isAscending ? arr[j] > arr[j + 1] : arr[j] < arr[j + 1]; /tf
             if (condition) {
                 [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
             }
