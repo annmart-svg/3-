@@ -2,3 +2,7 @@ generateArray(length, min, max): За допомогою Math.random() гене�
 printArray(arr): Перетворює кожен елемент масиву в рядок формату [cell - index,value - value] за допомогою Array.prototype.map() і поєднує їх через кому, огортаючи у фігурні дужки {}.  
 bubbleSort(array, isAscending): Виконує попарне порівняння та перестановку сусідніх елементів. Прапор isAscending визначає напрямок сортування (якщо true — від меншого до більшого, якщо false — від більшого до меншого).   insertionSort(array, isAscending): Проходить по елементах і послідовно вставляє кожен у потрібну позицію серед вже відсортованого лівого сегмента масиву.  
 selectionSort(array, isAscending): Знаходить мінімальний (чи максимальний при isAscending = false) елемент у невідсортованій частині масиву та міняє його місцями з поточним першим елементом цієї частини. 
+
+Bubble sort
+Insertion sort
+Selection sort
