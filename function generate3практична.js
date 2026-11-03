@@ -1,4 +1,4 @@
-function generateArray(length, min, max) {
+function generateArray(length, min, max) { /мас
     const arr = [];
     for (let i = 0; i < length; i++) {
         arr.push(Math.floor(Math.random() * (max - min + 1)) + min);
