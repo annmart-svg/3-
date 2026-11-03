@@ -6,7 +6,7 @@ function generateArray(length, min, max) { /мас
     return arr;
 }
 
-function printArray(arr) {
+function printArray(arr) { /форм
     const formatted = arr.map((value, index) => `[cell - ${index},value - ${value}]`).join(',');
     console.log(`{${formatted}}`);
 }
